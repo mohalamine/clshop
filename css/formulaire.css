@@ -1,0 +1,43 @@
+h3{
+	margin: -5px 0 -1px 27px;
+}
+.region{
+	margin: 5px 0 4px 27px;
+
+}
+
+.statut{
+	margin: 12px 0 4px 27px ;
+}
+
+#formulaire{
+	margin: auto;
+	background-color: #1D566E;
+	width: 350px;
+}
+
+h2{
+	font-size:22px;
+	text-align: center;
+	padding-top: 12px;
+}
+
+#formulaire .saisi{
+	width: 280px;
+	margin: 0 10px 0px 27px;
+	height: 25px;
+	border-radius: 7px;
+}
+
+button{
+	background-color: green;
+	color: #FFF;
+	height: 40px;
+	width: 100px;
+	border-radius: 7px;
+	margin-left: 220px;
+}
+
+.s{
+	 margin-left: 27px;
+}

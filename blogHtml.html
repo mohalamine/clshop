@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CodingLife: Documentation HTML5</title>
+	<link rel="stylesheet" type="text/css" href="css/styleHtml.css">
+</head>
+<body>
+	<main>
+			<!-- debut menu-lateral -->
+		<div id="menu-lateral">
+			<h2>Documentation HTML5</h2>
+			<ul>
+				<li>
+					<a href="#titre-introduction">Introduction</a>
+				</li>
+				<li>
+					<a href="#titre-fondation">Les Fondation de HTML5</a>					
+				</li>
+				<li>
+					<a href="#titre-squelette">Le Squelette HTML5</a>
+				</li>
+				<li>
+					<a href="#titre-paragraphe">Les Paragraphes</a>
+				</li>
+				<li>
+					<a href="#tittre-bloc">Les Blocs</a>
+				</li>
+				<li>
+					<a href="#">les Elements Inline</a>
+				</li>
+				<li>
+					<a href="#">Les Listes</a>
+				</li>
+				<li>
+					<a href="#">Les Liens</a>
+				</li>
+				<li>
+					<a href="#">Les Formulaires</a>
+				</li>
+				<li>
+					<a href="#">Les Tableaux</a>
+				</li>
+				<li>
+					<a href="#">API HTML5</a>
+				</li>
+				<li>
+					<a href="#">les Medias Query</a>
+				</li>
+				<li>
+					<a href="#">HTML5 Avancé</a>
+				</li>
+				<li>
+					<a href="#">Les Defis</a>
+				</li>
+				<li>
+					<a href="#">Références</a>
+				</li>
+			</ul>
+		</div>
+			<!-- fin menu-lateral -->
+			
+			<!--debut article  -->
+		<div class="article">
+				<h2 id="titre-introduction">Introduction</h2>
+				<p> HTML est un acronyme, signifiant HyperText Markup Language. C’est un langage de codage utilisé pour définir des parties de pages Web ou d’applications mobiles. Plus précisément, HTML permet de bien structurer une page Web.  Il permet aux utilisateurs Web de créer des sections, des paragraphes et des liens à l’aide d’éléments, de balises et d’attributs. Il situe l’en-tête, le pied de page, les images, les graphiques, les vidéos dans la page.
+				HTML est un langage standard de l’industrie. Il peut être compris par tous les navigateurs Web. Il est également la norme universellement acceptée pour rendre les sites Web « trouvables » par les moteurs de recherche.</p>
+				<h2 id="titre-fondation">Les Fondations de HTML5</h2>
+				<h3>Les Balises</h3>
+				<p>Un paragraphe et un titre sont bien différenciés par un navigateur Web. C’est parce que chacun possède sa propre balise HTML. Les balises HTML ressemblent à ceci : <strong>h1, h2,...h6</strong> , represente les titres ; <strong>p</strong> represente les paragraphes.  Leurs utilisations permet la création des « éléments », composés de trois parties principales dont la balise d’ouverture, le contenu et la balise de fermeture. La Balise d’ouverture est utilisée pour indiquer où un élément commence à prendre effet,Le Contenu est la partie que les utilisateurs voient et Quant à la balise de fermeture, elle ressemble à la balise d’ouverture, mais avec une barre oblique avant le nom de l’élément pour terminer un paragraphe.
+				Concernant les médias, les images utilisent les balises <strong>img</strong> et les vidéos les balises <strong>video</strong>. La plupart des éléments ont une balise d’ouverture et une balise de fermeture, mais pas obligatoirement. Actuellement, il existe 142 balises HTML disponibles. Même si certains d’entre eux ne sont plus pris en charge par les navigateurs, les apprendre est toujours important
+				<h3>Les Elements</h3>
+				<p>Par ailleurs, les éléments peuvent également inclure les méta-éléments et les éléments structurels. Les méta-éléments sont des éléments HTML que les utilisateurs ne voient pas lorsqu’ils visitent une page Web. Ils donnent aux navigateurs Web des informations supplémentaires sur la page comme les mots-clés, l’auteur du document, l’heure et la date de la dernière modification. Les éléments structurels sont les éléments HTML utilisés pour organiser le contenu de la page Web.</p>
+				<h3>Les Attributs</h3>
+				<p>Enfin, on peut ajouter aux balises HTML des attributs. Ce sont des instructions qui permettent de fournir des informations supplémentaires sur les éléments. Par exemple, un élément HTML tel qu’un paragraphe peut avoir un attribut indiquant son alignement (à gauche, au centre ou à droite). Ils sont inclus dans la balise d’ouverture et composés de deux sections : un nom et une valeur d’attribut. Le nom identifie les informations supplémentaires qu’un utilisateur souhaite ajouter et la valeur donne des spécifications supplémentaires.</p>
+				<h2 id="titre-squelette">Le Squelette HTML5</h2>
+				<p>Ainsi toute page ecrite en HTML doit comporter une certaine structure, un (squelette) qui sea toujours le meme.Ce squelette est bien evidemment constituer de divers elements.
+				Tout d'abord, toute page HTML5 doit commencer par la déclaration de ce qu'on appelle un 'DOCTYPE'. Le DOCTYPE comme son l'indique, sert à indiquer le type de document.Dans notre cas, le type de document est HTML. On ecrira donc (voir image).</p>
+					<img src="img/v100.png" class="image" alt="">
+				<h2 id="titre-paragraphe">Les Paragraphes</h2>
+				<p>L'élément HTML <strong>P</strong> représente un paragraphe de texte. Les paragraphes sont généralement représentés comme des blocs et séparés par un espace vertical, leur première ligne est également parfois indentée. Les paragraphes sont des éléments blocs. (voir image)</p>  
+					<img src="img/v101.png" class="image" alt="">
+					<h2 id="tittre-bloc">Les elements en blocs</h2>
+					<p>Éléments de niveau bloc
+					<code>Un élément de niveau bloc commence toujours sur une nouvelle ligne et les navigateurs ajoutent automatiquement un espace (une marge) avant et après l'élément.
+					Un élément de niveau bloc occupe toujours toute la largeur disponible (il s'étend aussi loin que possible vers la gauche et la droite).
+					L'élément &lt;div&gt; est un élément de niveau bloc.
+					&lt;p&gt;Bonjour le monde&lt;/p&gt;
+				&lt;div&gt;Bonjour le monde&lt;/div&gt;
+				Voici les éléments de niveau bloc en HTML :
+					&lt;address&gt;
+					&lt;article&gt;
+					&lt;aside&gt;
+					&lt;blockquote&gt;
+					&lt;canvas&gt;
+					&lt;dd&gt;
+					&lt;div&gt;
+					&lt;dl&gt;
+					&lt;dt&gt;
+					&lt;fieldset&gt;
+					&lt;figcaption&gt;
+					&lt;figure&gt;
+					&lt;footer&gt;
+					&lt;form&gt;
+					&lt;h1>-&lt;h6&gt;
+					&lt;header&gt;
+					&lt;hr&gt;
+					&lt;li&gt;
+					&lt;main&gt;
+					&lt;&gt;
+					&lt;noscript&gt;
+					&lt;ol&gt;	
+					&lt;p&gt;
+					&lt;pre&gt;
+					&lt;section&gt;
+					&lt;table&gt;
+					&lt;tfoot&gt;&lt;ul>
+					&lt;video&gt;				
+					<h2 id="tittre-inline">Les elements inline</h2>
+				</code>
+				
+		</div>
+			<!-- fin article -->
+	</main>
+</body>
+</html>

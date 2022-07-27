@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CL-Shop: Boutique en ligne</title>
+	<!-- Liaison des fichiers bootstrap -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+	<!-- debut menu de navigation -->
+	<div class="container-fluid">
+	<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+	  <div class="container-fluid">
+	    <a class="navbar-brand text-white" href="#">CODINGLIFE</a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+	        <li class="nav-item">
+	          <a class="nav-link active text-white" aria-current="page" href="#">ACCUEIL</a>
+	        </li>
+	      
+	        <li class="nav-item dropdown">
+	          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+	            BOUTIQUE
+	          </a>
+	          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+	            <li><a class="dropdown-item" href="shop.html">Produit</a></li>
+	            <li><a class="dropdown-item" href="electronique.html">Electronique</a></li>
+	       	 </ul>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link active text-white" aria-current="page" href="blog.html">BLOG</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link active text-white" aria-current="page" href="signup.html">INSCRIPTION</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link active text-white" aria-current="page" href="login.html">CONNEXION</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link active text-white" aria-current="page" href="about.html">A PROPOS</a>
+	        </li>
+	      </ul>
+	      
+	    </div>
+	  </div>
+	</nav>
+	<!-- fin menu de navigation -->
+
+	<!-- debut caroussel -->
+	<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+	  <div class="carousel-inner">
+	    <div class="carousel-item active">
+	      <img src="img/caroussel/1.jpg" class="d-block w-100" alt="...">
+	    </div>
+	    <div class="carousel-item">
+	      <img src="img/caroussel/2.jpg" class="d-block w-100" alt="...">
+	    </div>
+	    <div class="carousel-item">
+	      <img src="img/caroussel/3.jpg" class="d-block w-100" alt="...">
+	    </div>
+	    <div class="carousel-item">
+	      <img src="img/caroussel/4.jpg" class="d-block w-100" alt="...">
+	    </div>
+	    <div class="carousel-item">
+	      <img src="img/caroussel/5.jpg" class="d-block w-100" alt="...">
+	    </div>
+	  </div>
+	</div>
+	<!-- fin caroussel -->
+	</div>
+
+	<!-- debut de main -->
+	<main class="container-fluid">
+		<div class="card text-center mt-3" style="background-color: #050A30;">
+		 <div class="card-body bg-danger text-white" style="margin: 10px auto; border-radius: 10px;">
+		    <h2 class="card-title text-uppercase">Tout a commencé par une idée simple</h2>
+		    <p class="card-text fs-3">Creer des produits de qualités et bien conçus que je voulais moi-même</p>		   
+		  </div>	
+		</div>
+		<div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+		  <div class="col">	   
+		    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">	     
+		      <div class="carousel-inner">
+		        <div class="carousel-item active">
+		          <img src="img/v3.jpeg" class="d-block w-100" alt="...">
+		          <div class="carousel-caption d-none d-md-block">
+		            <h2>Homme</h2>	            
+		          </div>
+		        </div>	
+		        <div class="carousel-item ">
+		          <img src="img/s2.jpeg" class="d-block w-100" alt="...">
+		          <div class="carousel-caption d-none d-md-block">
+		            <h2>Femme</h2>	            
+		          </div>
+		        </div>	
+		        <div class="carousel-item ">
+		          <img src="img/caroussel/iphone.jpg" class="d-block w-100" alt="...">
+		          <div class="carousel-caption d-none d-md-block">
+		            <h2>Ipad</h2>	            
+		          </div>
+		        </div>	                        
+		      </div>	     
+		    </div>
+		  </div>
+		  <div class="col">	   
+		    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">	     
+		      <div class="carousel-inner">
+		        <div class="carousel-item active">
+		          <img src="img/caroussel/elect.jpeg" class="d-block w-100" alt="...">
+		          <div class="carousel-caption d-none d-md-block">
+		            <h2>Electromenager</h2>	            
+		          </div>
+		        </div>	
+		        <div class="carousel-item ">
+		          <img src="img/caroussel/enfant.jpg" class="d-block w-100" alt="...">
+		          <div class="carousel-caption d-none d-md-block">
+		            <h1>Collection enfant</h1>	            
+		          </div>
+		        </div>	
+		        <div class="carousel-item ">
+		          <img src="img/s3.jpeg" class="d-block w-100" alt="...">
+		          <div class="carousel-caption d-none d-md-block">
+		            <h2>Sac à main</h2>	            
+		          </div>
+		        </div>	                        
+		      </div>	     
+		    </div>
+		  </div>
+		  <div class="col">	   
+		    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">	     
+		      <div class="carousel-inner">
+		        <div class="carousel-item active">
+		          <img src="img/rechaud.jpeg" class="d-block w-100" alt="...">
+		          <div class="carousel-caption d-none d-md-block">
+		            <h2>Rechaud</h2>	            
+		          </div>
+		        </div>	
+		        <div class="carousel-item ">
+		          <img src="img/caroussel/or.jpg" class="d-block w-100" alt="...">
+		          <div class="carousel-caption d-none d-md-block">
+		            <h2> Ordinateur</h2>	            
+		          </div>
+		        </div>	
+		        <div class="carousel-item ">
+		          <img src="img/t11.jpeg" class="d-block w-100" alt="...">
+		          <div class="carousel-caption d-none d-md-block">
+		            <h2>Talon</h2>	            
+		          </div>
+		        </div>	                        
+		      </div>	     
+		    </div>
+		  </div>
+		</div>
+
+		<div class="card mt-3">
+			<div class="row p-4" style="background-color:#000c66;">
+				<div class="col-md-8">
+					<h4 class="text-white">Nous joindre maintenant</h4>
+				</div>
+				<div class="col-md-4">
+					<button class="btn btn-outline-danger">+224 620 00 00 00</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="card bg-dark text-center mt-4" style="min-height: 50px;">
+			<div class="text-primary fs-3 pt-2">
+				<h2>Produit en vedette</h2>
+			</div>
+		</div>
+
+		<div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
+		  <div class="col-md-3">
+		    <div class="card h-100">
+		      <img src="img/mac.jpg" class="card-img-top" alt="...">
+		      <div class="card-body">
+		        <p class="text-danger text-center fs-3">Macbook</p>
+		        <p class="card-text text-center fs-4">Prix: 6 000 000</p>
+		      </div>
+		      <div class="card-footer bg-dark">
+		        <small class="text-muted"><button class="btn btn-primary w-100 fs-5">Achetez Maintenant</button></small>
+		      </div>
+		    </div>
+		  </div>
+
+		  <div class="col-md-3">
+		    <div class="card h-100">
+		      <img src="img/techno.jpeg" class="card-img-top" alt="...">
+		      <div class="card-body">
+		        <p class="text-danger text-center fs-3">Techno</p>
+		        <p class="card-text text-center fs-4">Prix: 1 500 000</p>
+		      </div>
+		      <div class="card-footer bg-dark">
+		        <small class="text-muted"><button class="btn btn-primary w-100 fs-5">Achetez Maintenant</button></small>
+		      </div>
+		    </div>
+		  </div>
+
+		  <div class="col-md-3">
+		    <div class="card h-100">
+		      <img src="img/casq.jpg" class="card-img-top" alt="...">
+		      <div class="card-body">
+		        <p class="text-danger text-center fs-3">Casque</p>
+		        <p class="card-text text-center fs-4">Prix: 700 000</p>
+		      </div>
+		      <div class="card-footer bg-dark">
+		        <small class="text-muted"><button class="btn btn-primary w-100 fs-5">Achetez Maintenant</button></small>
+		      </div>
+		    </div>
+		  </div>
+
+		  <div class="col-md-3">
+		    <div class="card h-100">
+		      <img src="img/fer.jpg" class="card-img-top" alt="...">
+		      <div class="card-body">
+		        <p class="text-danger text-center fs-3">Fer à repasser</p>
+		        <p class="card-text text-center fs-4">Prix: 300 000</p>
+		      </div>
+		      <div class="card-footer bg-dark">
+		        <small class="text-muted"><button class="btn btn-primary w-100 fs-5">Achetez Maintenant</button></small>
+		      </div>
+		    </div>
+		  </div>
+		 
+		</div>
+
+		<div class="card mt-4" style="background-color: #050A30;">
+			<div class="row text-white pt-5" style="min-height:120px;">
+				<div class="col">
+					<h4 class="px-5"> Souscrire à notre Newletter</h4>
+				</div>
+				<div class="col">
+					<form>
+						<div class="row">
+							<div class="col">
+								<input type="text" name="Email" placeholder=" Entrez votre Email" class="form-control">
+							</div>
+							<div class="col">
+								<button class="btn btn-primary">Envoyer</button>
+							</div>
+						</div>
+						
+					</form>
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="card bg-dark text-center mt-4" style="min-height: 50px;">
+			<div class="text-primary fs-3 pt-2">
+				<h2>Nouveaux Produits</h2>
+			</div>
+		</div>
+
+		<div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
+		  <div class="col-md-3">
+		    <div class="card h-100">
+		      <img src="img/Epson.jpg" class="card-img-top" alt="...">
+		      <div class="card-body">
+		        <p class="text-danger text-center fs-3">Imprimante</p>
+		        <p class="card-text text-center fs-4">Prix: 2 000 000</p>
+		      </div>
+		      <div class="card-footer bg-dark">
+		        <small class="text-muted"><button class="btn btn-primary w-100 fs-5">Achetez Maintenant</button></small>
+		      </div>
+		    </div>
+		  </div>
+
+		  <div class="col-md-3">
+		    <div class="card h-100">
+		      <img src="img/pc.jpg" class="card-img-top" alt="...">
+		      <div class="card-body">
+		        <p class="text-danger text-center fs-3">Ordinateur</p>
+		        <p class="card-text text-center fs-4">Prix: 3 500 000</p>
+		      </div>
+		      <div class="card-footer bg-dark">
+		        <small class="text-muted"><button class="btn btn-primary w-100 fs-5">Achetez Maintenant</button></small>
+		      </div>
+		    </div>
+		  </div>
+
+		  <div class="col-md-3">
+		    <div class="card h-100">
+		      <img src="img/projecteur.jpg" class="card-img-top" alt="...">
+		      <div class="card-body">
+		        <p class="text-danger text-center fs-3">Projecteur</p>
+		        <p class="card-text text-center fs-4">Prix: 2 500 000</p>
+		      </div>
+		      <div class="card-footer bg-dark">
+		        <small class="text-muted"><button class="btn btn-primary w-100 fs-5">Achetez Maintenant</button></small>
+		      </div>
+		    </div>
+		  </div>
+
+		  <div class="col-md-3">
+		    <div class="card h-100">
+		      <img src="img/samt.jpg" class="card-img-top" alt="...">
+		      <div class="card-body">
+		        <p class="text-danger text-center fs-3">Samsung</p>
+		        <p class="card-text text-center fs-4">Prix: 2 000 000</p>
+		      </div>
+		      <div class="card-footer bg-dark">
+		        <small class="text-muted"><button class="btn btn-primary w-100 fs-5">Achetez Maintenant</button></small>
+		      </div>
+		    </div>
+		  </div>
+		 
+		</div>
+
+		<div class="card bg-dark text-center mt-4" style="min-height: 50px;">
+			<div class="text-primary fs-3 pt-2">
+				<h2>Meilleurs Produits</h2>
+			</div>
+		</div>
+
+
+		<div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
+		  <div class="col-md-2">
+		    <div class="card h-100">
+		      <img src="img/disk.jpg" class="card-img-top" alt="...">
+		      <div class="card-body">
+		        <p class="text-danger text-center fs-3">Disque dur</p>
+		        <p class="card-text text-center fs-4">Prix: 500 000</p>
+		      </div>
+		      <div class="card-footer bg-dark">
+		        <small class="text-muted"><button class="btn btn-primary w-100 fs-5">Commandez</button></small>
+		      </div>
+		    </div>
+		  </div>
+
+		  <div class="col-md-2">
+		    <div class="card h-100">
+		      <img src="img/clim1.jpeg" class="card-img-top" alt="...">
+		      <div class="card-body">
+		        <p class="text-danger text-center fs-3">Climatiseur</p>
+		        <p class="card-text text-center fs-4">Prix: 3 500 000</p>
+		      </div>
+		      <div class="card-footer bg-dark">
+		        <small class="text-muted"><button class="btn btn-primary w-100 fs-5">Commandez</button></small>
+		      </div>
+		    </div>
+		  </div>
+
+		  <div class="col-md-2">
+		    <div class="card h-100">
+		      <img src="img/café.jpeg" class="card-img-top" alt="...">
+		      <div class="card-body">
+		        <p class="text-danger text-center fs-3">Cafetière</p>
+		        <p class="card-text text-center fs-4">Prix: 1 200 000</p>
+		      </div>
+		      <div class="card-footer bg-dark">
+		        <small class="text-muted"><button class="btn btn-primary w-100 fs-5">Commandez</button></small>
+		      </div>
+		    </div>
+		  </div>
+
+		  <div class="col-md-2">
+		    <div class="card h-100">
+		      <img src="img/cle.jpg" class="card-img-top" alt="...">
+		      <div class="card-body">
+		        <p class="text-danger text-center fs-3">Clé USB</p>
+		        <p class="card-text text-center fs-4">Prix: 250 000</p>
+		      </div>
+		      <div class="card-footer bg-dark">
+		        <small class="text-muted"><button class="btn btn-primary w-100 fs-5">Commandez</button></small>
+		      </div>
+		    </div>
+		  </div>
+
+		  <div class="col-md-2">
+		    <div class="card h-100">
+		      <img src="img/sac8.jpeg" class="card-img-top" alt="...">
+		      <div class="card-body">
+		        <p class="text-danger text-center fs-3">Sac à Main</p>
+		        <p class="card-text text-center fs-4">Prix: 300 000</p>
+		      </div>
+		      <div class="card-footer bg-dark">
+		        <small class="text-muted"><button class="btn btn-primary w-100 fs-5">Commandez</button></small>
+		      </div>
+		    </div>
+		  </div>
+
+		  <div class="col-md-2">
+		    <div class="card h-100">
+		      <img src="img/c15.png" class="card-img-top" alt="...">
+		      <div class="card-body">
+		        <p class="text-danger text-center fs-3">Chaussure</p>
+		        <p class="card-text text-center fs-4">Prix: 300 000</p>
+		      </div>
+		      <div class="card-footer bg-dark">
+		        <small class="text-muted"><button class="btn btn-primary w-100 fs-5">Commandez</button></small>
+		      </div>
+		    </div>
+		  </div>
+		 
+		</div>
+
+
+		<div class="card bg-dark text-center mt-4" style="min-height: 50px;">
+			<div class="text-primary fs-3 pt-2">
+				<h2>TEMOIGNAGES CLIENTS</h2>
+			</div>
+		</div>
+
+
+		<div class="row mt-2">
+			<div class="col">
+				<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">	     
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+				    	<div class="card mb-3" >
+				    	  <div class="row g-0">
+				    	    <div class="col-md-4">
+				    	      <img src="img/02.JPG" class="img-fluid rounded-start" alt="...">
+				    	    </div>
+				    	    <div class="col-md-8">
+				    	      <div class="card-body">
+				    	        <h4 class="card-title fw-bold">Mohamed Lamine Sacko</h4>
+				    	        <p>Developpeur junior</p>
+				    	        <p class="card-text">Les produits sont de la bonne qualité, je vous conseils de les testés</p>    	       
+				    	      </div>
+				    	    </div>
+				    	  </div>
+				    	</div>
+					</div>
+					
+				  <div class="carousel-item ">
+					    <div class="card mb-3" >
+					      <div class="row g-0">
+					    	<div class="col-md-4">
+					    	  <img src="img/user4.jpg" class="img-fluid rounded-start" alt="...">
+					    	</div>
+					        <div class="col-md-8">
+					    	  <div class="card-body">
+					    	     <h4 class="card-title fw-bold">OUSMANE FOFANA</h4>
+					    	     <p>Infographe</p>
+					    	     <p class="card-text">L'entreprise s'occupe bien de ses clients</p>    	       
+					    	    </div>
+					    	  </div>
+					        </div>
+					      </div>
+						</div>
+					</div>
+				  </div>
+				</div>
+
+				<div class="col">
+					<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">	     
+					  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					    	<div class="card mb-3" >
+					    	  <div class="row g-0">
+					    	    <div class="col-md-4">
+					    	      <img src="img/profile.jpg" class="img-fluid rounded-start" alt="...">
+					    	    </div>
+					    	    <div class="col-md-8">
+					    	      <div class="card-body">
+					    	        <h4 class="card-title fw-bold">Sieky Tounkara</h4>
+					    	        <p>Developpeur IT</p>
+					    	        <p class="card-text">Les produits sont d'une meilleur qualité, testez les et vous serez satisfait</p>    	       
+					    	      </div>
+					    	    </div>
+					    	  </div>
+					    	</div>
+						</div>
+						
+					  <div class="carousel-item ">
+						    <div class="card mb-3" >
+						      <div class="row g-0">
+						    	<div class="col-md-4">
+						    	  <img src="img/selfie.jpg" class="img-fluid rounded-start" alt="...">
+						    	</div>
+						        <div class="col-md-8">
+						    	  <div class="card-body">
+						    	     <h4 class="card-title fw-bold">Fanta Diallo</h4>
+						    	     <p>Infographe</p>
+						    	     <p class="card-text">L'entreprise s'occupe bien de ses clients</p>    	       
+						    	    </div>
+						    	  </div>
+						        </div>
+						      </div>
+						   </div>
+					  </div>
+					</div>
+				</div>
+			</div>
+
+	</main>
+		<!-- fin de main -->
+
+		<!-- debut pied de page -->
+		<div class="container-fluid" style="background-color:#050A30; color:#FFF;">
+		  <footer class="py-5">
+		    <div class="row">
+		      <div class="col-2">
+		        <h4 class="text-danger">Reseaux Sociaux</h4>
+		        <ul class="nav flex-column">
+		          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Facebook</a></li>
+		          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Instagram</a></li>
+		          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Twitter</a></li>
+		          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">WhatsApp</a></li>		         
+		        </ul>
+		      </div>
+
+		      <div class="col-2">
+		        <h4 class="text-danger">Liens</h4>
+		        <ul class="nav flex-column">
+		          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Services</a></li>
+		          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
+		          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
+		          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">A Propos</a></li>		         
+		        </ul>
+		      </div>
+		     
+		      <div class="col-4 offset-1">
+		        <form>
+		          <h5 class="text-danger">Souscrire à notre Newletter</h5>
+		          <p>Résumé de ce qui est nouveau et pationnant</p>
+		          <div class="d-flex w-100 gap-2">
+		            <label for="newsletter1" class="visually-hidden">Adresse Email</label>
+		            <input id="newsletter1" type="text" class="form-control" placeholder="Votre Adresse Email">
+		            <button class="btn btn-primary" type="button">S'inscrire</button>
+		          </div>
+		        </form>
+		      </div>
+		    </div>
+
+		    <div class="py-2 my-2 border-top text-center">
+		      <p>&copy; 2022 Coding Life. Tout Droits Réservés.</p>		     
+		    </div>
+		  </footer>
+		<white
+		<-- fin pied de page -->
+
+
+
+</body>
+</html>
